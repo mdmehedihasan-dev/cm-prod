@@ -20,8 +20,6 @@ backend/env.*.json
 !backend/env.*.example.json
 
 # Root environment files
-.env
-.env.*
 !.env.example
 !.env*.example
 
@@ -57,8 +55,11 @@ temp/
 # OS/editor files
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
 
 # Generated archives
 *.zip
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
